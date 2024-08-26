@@ -1,0 +1,53 @@
+/* Estilo geral do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo do título principal */
+h1 {
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    color: blue;
+}
+
+/* Estilo dos títulos secundários */
+h2 {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: red;
+}
+
+/* Estilo dos parágrafos */
+p {
+    font-size: 15px;
+    font-family: 'Times New Roman', serif;
+    color: black;
+}
+
+/* Estilo do código em blocos */
+pre {
+    background: #f4f4f4;
+    padding: 10px;
+    border: 1px solid #ccc;
+    overflow-x: auto;
+}
+
+/* Estilo do rodapé */
+footer {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
