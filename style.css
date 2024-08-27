@@ -1,53 +1,63 @@
-/* Estilo geral do corpo da página */
+/* Define a fonte e o tamanho padrão para o corpo do documento */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Times New Roman", serif;
+    color: black;
+    margin: 20px;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
 }
 
-/* Estilo do cabeçalho */
-header {
-    background: #f4f4f4;
-    padding: 20px;
-    text-align: center;
-}
-
-/* Estilo do título principal */
+/* Estilo para o título principal */
 h1 {
     font-size: 30px;
     font-family: Arial, sans-serif;
     color: blue;
 }
 
-/* Estilo dos títulos secundários */
+/* Estilo para o título secundário */
 h2 {
     font-size: 20px;
     font-family: Arial, sans-serif;
     color: red;
 }
 
-/* Estilo dos parágrafos */
+/* Estilo para os parágrafos */
 p {
     font-size: 15px;
-    font-family: 'Times New Roman', serif;
+    font-family: "Times New Roman", serif;
     color: black;
 }
 
-/* Estilo do código em blocos */
+/* Estilo para o código dentro dos parágrafos */
+code {
+    font-family: monospace;
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* Estilo básico para as imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Estilo para listas */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Estilo para blocos de código */
 pre {
-    background: #f4f4f4;
+    background-color: #f4f4f4;
     padding: 10px;
-    border: 1px solid #ccc;
+    border-radius: 4px;
     overflow-x: auto;
 }
 
-/* Estilo do rodapé */
-footer {
-    background: #f4f4f4;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+h3 {
+    font-size: 20px;
+    color: black;
 }
